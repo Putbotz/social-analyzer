@@ -820,7 +820,7 @@ if (argv.grid !== '') {
   helper.grid_url = argv.grid
 }
 if (argv.docker) {
-  server_host = '0.0.0.0'
+  server_host = '172.104.160.205'
 }
 if (argv.gui) {
   app.listen(server_port, server_host, function () {
